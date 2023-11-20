@@ -5,3 +5,9 @@
 .navbar-btn li a, .navbar-btn li button {
     letter-spacing: 2px
 }
+
+.banner {
+    height: 100vh;
+    background-image: url("../img/banner/bg.png");
+    overflow: hidden;
+}
