@@ -1,3 +1,45 @@
+#loading {
+    width:100%; 
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1040;
+    background: #ffffff;
+}
+
+#loading .cat {
+    position: absolute; 
+    top: calc(50% - 85px);
+    left: calc(50% - 60px);
+    -webkit-animation: spin 3s linear infinite; /* Safari */
+    animation: spin 3s linear infinite;
+}
+
+#loading .number {
+    font-size: 24px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+}
+
 .navbar {
     height: 8vh;
 }
