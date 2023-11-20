@@ -1,3 +1,7 @@
-.navbar-btn li a{
-    letter-spacing: 6px
+.navbar {
+    height: 8vh;
+}
+
+.navbar-btn li a, .navbar-btn li button {
+    letter-spacing: 2px
 }
